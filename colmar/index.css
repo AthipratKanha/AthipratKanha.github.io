@@ -1,0 +1,349 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: 'Avenir Next LT Pro', sans-serif;
+  max-width: 1280px;
+  margin: auto;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  height: 64px;
+  width: 100%;
+}
+
+header img {
+  height: 90%;
+  margin-left: 24px;
+}
+
+header img.mobile {
+  display: none;
+}
+
+h2 {
+  font-size: 56px;
+  font-weight: 900;
+}
+
+header h2 {
+  color: gray;
+  font-size: 32px;
+  font-weight: normal;
+  width: 500px;
+}
+
+header h2 strong {
+  color: black;
+  font-weight: bold;
+}
+
+header nav {
+  float: right;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  float: right;
+}
+
+nav ul li {
+  margin: 0 8px;
+}
+
+nav ul li:last-child {
+  margin-right: 24px;
+}
+
+.banner {
+  align-items: center;
+  background-color: lightgrey;
+  display: flex;
+  font-size: 36px;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner img {
+  margin: 32px 24px;
+  width: 60%;
+}
+
+.banner .banner-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-content h2,
+.banner-content span,
+.banner-content .banner-button {
+  margin: 24px 0;
+}
+
+.banner-content h2 {
+  font-weight: 900;
+}
+
+.banner-content span,
+.banner-content .banner-button {
+  font-weight: bold;
+}
+
+.banner-button {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.banner-button span {
+  color: white;
+}
+
+.banner-button:hover {
+  background-color: darkgrey;
+}
+
+.info {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+.info .column1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 32px 24px;
+  width: 60%;
+}
+
+.info .column2 {
+  align-items: center;
+  border-left: 1px lightgrey solid;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-top: 16px;
+  width: 40%;
+}
+
+.info .column1 .article img,
+.info .column1 .article .content,
+.info .column1 .article .source{
+  display: block;
+}
+
+.info .column1 .article img {
+  height: auto;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.info .column1 .content {
+  margin: 24px 0;
+}
+
+.info .column1 .source {
+  margin: 32px 0;
+}
+
+.info .column2 .article {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.info .column2 img {
+  margin: 16px;
+  height: auto;
+  width: 35%;
+}
+
+.info .article-content {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.info .article-content h4,
+.info .article-content span,
+.info .article-content a {
+  margin: 8px;
+}
+
+.info .column2 .article:last-child {
+  background-color: lightgrey;
+}
+
+.learning {
+  align-items: center;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.learning h2 {
+  margin: 32px 0;
+}
+
+.learning .course-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 72px;
+  margin-bottom: 32px;
+}
+
+.course-list .course {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  width: 30%;
+}
+
+.course img {
+  height: auto;
+  width: 100%;
+}
+
+.course .course-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  padding: 16px;
+}
+
+.course-content h4 {
+  margin: 16px 0;
+}
+
+.course-content .courses {
+  color: dimgrey;
+  margin: 8px 0;
+}
+
+.course-content .description {
+  color: dimgrey;
+  line-height: 1.4;
+  margin-bottom: 24px;
+}
+
+.thesis {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 950px;
+  width: 100%;
+}
+
+.thesis h2 {
+  margin: 32px 0;
+}
+
+.thesis .thesis-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.thesis-content .column1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+}
+
+.thesis-content .column1 .article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.thesis-content .column1 h4 {
+  margin-left: 24px;
+  margin-bottom: 8px;
+}
+
+.thesis-content .column1 .description {
+  color: dimgrey;
+  line-height: 1.4;
+  margin-left: 24px;
+  margin-bottom: 32px;
+}
+
+.thesis-content video {
+  height: auto;
+  margin: 0 24px 24px 24px;
+  width: 90%;
+}
+
+.thesis-content .column2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+}
+
+.thesis-content .column2 .article {
+  align-items: center;
+  display: flex;
+}
+
+.thesis-content .column2 img {
+  height: auto;
+  margin: 16px;
+  width: 35%;
+}
+
+.thesis-content .column2 .article-content {
+  line-height: 1.5;
+  width: 65%;
+}
+
+.thesis-content .column2 .article-content .description {
+  color: dimgrey;
+}
+
+.thesis-content .column2 .article:first-child {
+  background-color: lightgrey;
+}
+
+footer {
+  border-top: 1px lightgrey solid;
+  color: dimgrey;
+  display: flex;
+  font-size: 0.8rem;
+  height: 70px;
+  justify-content: flex-start;
+  padding-top: 16px;
+  width: 100%;
+}
+
+footer .copyright {
+  margin-left: 24px;
+  width: 100%;
+}
+
+footer nav ul {
+  display: flex;
+  float: right;
+}
